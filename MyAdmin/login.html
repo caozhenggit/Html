@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/login.css">
+		<title>登录</title>
+	</head>
+	
+	<body>
+	    <div class="login" @keydown.enter="handleSubmit">
+	        <div class="login-con">
+	            <Form ref="loginForm" :model="form" :rules="rules">
+                    <Input v-model="form.userName" placeholder="请输入用户名"></Input>
+                    <Input type="password" v-model="form.password" placeholder="请输入密码"></Input>
+                    <Button @click="handleSubmit" type="primary" long>登录</Button>
+                </Form>
+	        </div>
+	    </div>
+	</body>
+	
+</html>

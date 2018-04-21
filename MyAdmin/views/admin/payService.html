@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>付费服务</title>
+  <link rel="stylesheet" href="../../layui/css/layui.css">
+</head>
+<body class="layui-layout-body">
+
+	<div class="layui-layout layui-layout-admin">
+		<div class="layui-header">
+		    <div class="layui-logo">
+		    	<h3>互说宝内部工具</h3>
+		    </div>
+		</div>
+	
+		<div class="layui-side layui-bg-black">
+		    <div class="layui-side-scroll">
+		      <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+		        <li class="layui-nav-item layui-nav-itemed">
+		          <a class="" href="javascript:;">超级管理员</a>
+		          <dl class="layui-nav-child">
+		            <dd><a href="admin/authExternalAccount.html">授权对外账户</a></dd>
+		            <dd><a class="layui-this">付费服务</a></dd>
+		            <dd><a href="javascript:;">列表三</a></dd>
+		          </dl>
+		        </li>
+		        
+		        <li class="layui-nav-item">
+		          <a href="javascript:;">售前</a>
+		          <dl class="layui-nav-child">
+		            <dd><a href="javascript:;">列表一</a></dd>
+		            <dd><a href="javascript:;">列表二</a></dd>
+		            <dd><a href="javascript:;">列表三</a></dd>
+		          </dl>
+		        </li>
+		        
+		        <li class="layui-nav-item">
+		          <a href="javascript:;">运维</a>
+		          <dl class="layui-nav-child">
+		            <dd><a href="views/storeManager.html">店铺管理</a></dd>
+		            <dd><a href="javascript:;">基站状态</a></dd>
+		            <dd><a href="javascript:;">基站数据查询</a></dd>
+		            <dd><a href="javascript:;">基站查询</a></dd>
+		          </dl>
+		        </li>
+		        
+		        <li class="layui-nav-item">
+		          <a href="javascript:;">售后</a>
+		          <dl class="layui-nav-child">
+		            <dd><a href="javascript:;">列表一</a></dd>
+		            <dd><a href="javascript:;">列表二</a></dd>
+		            <dd><a href="javascript:;">列表三</a></dd>
+		          </dl>
+		        </li>
+		        
+		      </ul>
+		    </div>
+		</div>
+	
+		<div class="layui-body"> 
+			<div class="layui-tab layui-tab-card" style="margin-top: 2px;">
+			  <ul class="layui-tab-title">
+			    <li class="layui-this">笑脸服务</li>
+			    <li>付费服务1</li>
+			    <li>付费服务2</li>
+			    <li>付费服务3</li>
+			    <li>付费服务4</li>
+			  </ul>
+			  <div class="layui-tab-content" style="height: 600px;">
+			    <div class="layui-tab-item layui-show">默认宽度是相对于父元素100%适应的，你也可以固定宽度。</div>
+			    <div class="layui-tab-item">2</div>
+			    <div class="layui-tab-item">3</div>
+			    <div class="layui-tab-item">4</div>
+			    <div class="layui-tab-item">5</div>
+			    <div class="layui-tab-item">6</div>
+			  </div>
+			</div>
+	    </div>
+	</div>
+
+	<script src="../../layui/layui.js"></script>
+	<script>
+		layui.use('element', function(){
+		  var element = layui.element; 
+		});
+	</script>
+</body>
+</html>
